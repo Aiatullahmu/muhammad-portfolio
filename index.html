@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammad Aiatullah | Portfolio</title>
+  <meta name="description" content="Portfolio of Muhammad Aiatullah — IT/Cybersecurity student showcasing projects and skills." />
+
+  <!-- Open Graph (nice preview when sharing link) -->
+  <meta property="og:title" content="Muhammad Aiatullah | Portfolio" />
+  <meta property="og:description" content="IT/Cybersecurity student — projects, skills, and contact." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Top Navbar -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">MA</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="badge">Portfolio</p>
+        <h1>Muhammad Aiatullah</h1>
+        <p class="subtitle">
+          IT Student | Aspiring Cybersecurity Professional
+        </p>
+        <p class="desc">
+          I am building strong fundamentals in networking, Linux, and security.
+          I share my learning through projects and practical labs.
+        </p>
+
+        <div class="buttons">
+          <!-- Replace these links with your real links -->
+          <a class="btn primary" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="mailto:YOUR_EMAIL@example.com">Email</a>
+          <a class="btn" href="#projects">View Projects</a>
+        </div>
+
+        <div class="quick">
+          <!-- Optional: replace with your details -->
+          <span>📍 Your City</span>
+          <span>✉️ YOUR_EMAIL@example.com</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Focus Areas</h2>
+        <ul class="checklist">
+          <li>Networking fundamentals</li>
+          <li>Linux basics & scripting</li>
+          <li>Web security basics (OWASP)</li>
+          <li>Python for automation (learning)</li>
+        </ul>
+
+        <div class="mini">
+          <div class="mini-box">
+            <p class="mini-title">Goal</p>
+            <p class="mini-text">SOC / Security Analyst (Entry-level)</p>
+          </div>
+          <div class="mini-box">
+            <p class="mini-title">Learning</p>
+            <p class="mini-text">TryHackMe / Labs / Projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">
+        I’m Muhammad Aiatullah, an IT student who wants to build a career in cybersecurity.
+        I enjoy learning by doing — building small tools, documenting labs, and improving my technical skills step-by-step.
+      </p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>What I’m good at</h3>
+          <p>
+            Learning quickly, staying consistent, and improving fundamentals like networking and Linux.
+          </p>
+        </div>
+        <div class="card">
+          <h3>What I’m looking for</h3>
+          <p>
+            Internship / entry-level opportunity where I can grow as a security analyst and contribute to real work.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Core</h3>
+          <ul class="list">
+            <li>Networking Fundamentals</li>
+            <li>Windows Basics</li>
+            <li>Linux Basics</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Security</h3>
+          <ul class="list">
+            <li>Cybersecurity Basics</li>
+            <li>Ethical Hacking (learning)</li>
+            <li>OWASP Top 10 (learning)</li>
+            <li>Security Concepts</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Programming</h3>
+          <ul class="list">
+            <li>Python (learning)</li>
+            <li>Basic automation scripts</li>
+            <li>Problem solving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="muted">Add your real GitHub links later — start with 2–4 projects, even small ones.</p>
+
+      <div class="projects">
+        <article class="project">
+          <h3>Network Scanner (Python)</h3>
+          <p>
+            A simple scanner that checks common ports and outputs results in a clean format.
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Networking</span><span>CLI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/network-scanner" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="#" aria-disabled="true">Write-up (soon)</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>Log Analyzer (Python)</h3>
+          <p>
+            Parses log files and highlights suspicious patterns (failed logins, repeated IPs, etc.).
+          </p>
+          <div class="tags">
+            <span>Python</span><span>Security</span><span>Logs</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/log-analyzer" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="#" aria-disabled="true">Write-up (soon)</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>OWASP Notes + Mini Labs</h3>
+          <p>
+            Notes and small practice labs for OWASP Top 10 vulnerabilities with examples.
+          </p>
+          <div class="tags">
+            <span>Web</span><span>OWASP</span><span>Learning</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/owasp-notes" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="#" aria-disabled="true">Write-up (soon)</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certs" class="section">
+    <div class="container">
+      <h2>Certifications / Platforms</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Certifications</h3>
+          <ul class="list">
+            <li>Google Cybersecurity (planned)</li>
+            <li>Networking course (planned)</li>
+            <li>Add your real ones here</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Platforms</h3>
+          <ul class="list">
+            <li>TryHackMe: <a href="https://tryhackme.com/" target="_blank" rel="noreferrer">Profile link</a></li>
+            <li>Hack The Box: <a href="https://www.hackthebox.com/" target="_blank" rel="noreferrer">Profile link</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="card">
+        <p class="lead">
+          Want to connect? Email me or view my GitHub.
+        </p>
+
+        <div class="buttons">
+          <a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email Me</a>
+          <a class="btn" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+        <p class="muted small">
+          Replace YOUR_EMAIL and YOUR_USERNAME with your real info in the code.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Muhammad Aiatullah</span>
+      <span class="muted">Built with HTML/CSS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
