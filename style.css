@@ -384,3 +384,19 @@ a:hover{opacity:.92}
   .grid-3{ grid-template-columns: 1fr; }
   .mini{ grid-template-columns: 1fr; }
 }
+.hero-top{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  margin-bottom:15px;
+}
+
+.profile-pic{
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid rgba(255,255,255,.15);
+  box-shadow: 0 12px 35px rgba(0,0,0,.6);
+}
+
